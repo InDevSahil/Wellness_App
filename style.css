@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+body {
+    font-family: 'Inter', sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+.glow-shadow {
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.4);
+}
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+}
+.animate-pulse-slow {
+    animation: pulse 4s infinite ease-in-out;
+}
